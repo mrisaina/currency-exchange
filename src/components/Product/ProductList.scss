@@ -1,0 +1,49 @@
+.page-title {
+    text-align: center;
+}
+
+.currency-list {
+    text-align: center;
+    padding: 20px 0;
+
+    button {
+        margin: 0 10px;
+    }
+}
+
+.product-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.product {
+    line-height: 1.5;
+    text-align: center;
+
+    .title {
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+    .desc {
+        padding-top: 30px;
+        font-size: 28px;
+    }
+
+    .price {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+
+    .btn-buy {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+.total {
+    padding-top: 50px;
+    text-align: center;
+}

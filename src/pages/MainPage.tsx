@@ -37,9 +37,6 @@ const MainPageWithRequest = (props: Props) => {
     }));
   };
 
-  console.log(mult);
-  console.log(orderList);
-
   const selectNewCurrency = (e: any) => {
     productsArray.map(async ({ id, price }) => {
       try {
